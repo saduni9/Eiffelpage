@@ -1,0 +1,98 @@
+h1{
+    letter-spacing:2px;
+}
+
+.footer{
+   text-align:center;
+}
+
+/* Heading */
+h1 {
+ margin: 10px 0;
+}
+
+/* Footer */
+footer {
+ margin-top: 10px;
+}
+
+/* Sections */
+section {
+ padding: 10px;
+}
+
+/* 1. Set the background color of the section elements white. */
+section {
+ background-color: white;
+}
+
+/* 2. Set the background color of the whole page to #e0e0e0. */
+body {
+ background-color: #e0e0e0;
+}
+
+/* 3. For our section with the form: give it an id="buy" attribute, so you can target it specifically. Then apply the following styles: */
+#buy {
+ background-color: #687373;
+ margin-top: 10px;
+ color: #fcfcfc;
+}
+
+ul {
+ list-style-type: square;
+ list-style-position: inside;
+ padding-left: 30px;
+}
+table {
+ border-collapse: collapse;
+}
+
+td, th {
+ border: 1px solid black;
+ padding: 10px;
+}
+
+th {
+ background-color: #2493df;
+ color: white;
+}
+
+input[type="number"] {
+ padding: 2px;
+ text-align: center;
+ width: 50px;
+}
+
+button[type="submit"] {
+ background-color: #2493df;
+ color: white;
+ font-weight: bold;
+ font-size: 16px;
+ border: none;
+}
+form {
+ display: flex;
+}
+
+.form-section {
+ flex: 1;
+}
+
+button {
+ height: 40px;
+ width: 100%;
+}
+
+section img {
+ float: left;
+ margin-right: 10px;
+}
+
+#buy {
+ position: fixed;
+ bottom: 0px;
+ right: 0px;
+ width: 100%;
+ box-sizing: border-box;
+}
+
